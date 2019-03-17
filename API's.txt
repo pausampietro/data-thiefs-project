@@ -1,0 +1,43 @@
+
+
+#########################################################
+
+1. FLIGHTS : 
+--------------------------------------------
+http://aviation-edge.com/v2/public/flights?key=8bbf2c-a12972&depIata=BCN
+API KEY:8bbf2c-a12972
+
+
+
+#################################################
+
+2. AVIONS SEGONS IATA I TIPUS: (file)
+https://raw.githubusercontent.com/jpatokal/openflights/master/data/planes.dat
+
+
+
+##########################################################
+
+3. WEB SCRAPPING
+
+
+
+
+
+
+
+OTHER SOURCES:
+
+FLIGHTS BETWEEN TWO INTERVALS OF TIME (without speeds)
+URL: https://opensky-network.org/api/flights/all?begin=1552665600&end=1552666200
+(from friday 15/3 16:00 to 16:10)
+
+
+AIRCRAFTS (IATA CODE; KIND OF PLANE...)
+------------------------------------------
+URL: https://iatacodes.org/api/v6/aircrafts?api_key=f9a3eb52-37da-4054-9bae-0611ecfebf9f
+API KEY: f9a3eb52-37da-4054-9bae-0611ecfebf9f
+
+Your ID: 15044
+
+Password: HMjVn4637@
