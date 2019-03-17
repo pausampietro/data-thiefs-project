@@ -11,7 +11,7 @@ API KEY:8bbf2c-a12972
 
 #################################################
 
-2. AVIONS SEGONS IATA I TIPUS: (file)
+2. AVIONS BY IATA and TYPE: (file)
 https://raw.githubusercontent.com/jpatokal/openflights/master/data/planes.dat
 
 
