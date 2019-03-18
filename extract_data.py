@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from pandas.io.json import json_normalize
 from sqlalchemy import create_engine
-
+import pymysql
 
 def get_flight_data():
     '''
@@ -17,6 +17,7 @@ def get_flight_data():
     response = requests.get(url).json()
     flights_data = pd.DataFrame(json_normalize(response))
     flights_data['system.updated'] = pd.to_datetime(flights_data['system.updated'], unit='s')
+    return flights_data
 
 
 def save_to_sql(df_to_save, name_table):
@@ -31,7 +32,7 @@ def save_to_sql(df_to_save, name_table):
     login = "root"
     password = "root"
     ip = "35.246.218.28"
-    database = "Miscellaneous"
+    database = "flight_radar"
 
     engine = create_engine(f'mysql+pymysql://{login}:{password}@{ip}/{database}')
 
