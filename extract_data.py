@@ -12,7 +12,9 @@ def get_flight_data():
     :return: A Dataframe with 23 columns.
     '''
 
-    url = "http://aviation-edge.com/v2/public/flights?key=8bbf2c-a12972&depIata=BCN"
+    key = "8bbf2c-a12972"
+    departure_airport_iata = "BCN"
+    url = f"http://aviation-edge.com/v2/public/flights?key={key}&depIata={departure_airport_iata}"
 
     response = requests.get(url).json()
     flights_data = pd.DataFrame(json_normalize(response))
