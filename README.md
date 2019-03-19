@@ -29,7 +29,7 @@ Team
 
 Topics you are covering
 
-*Carbon footprint of planes
+* Carbon footprint of planes
 
 Questions you want to answer
 * What is carbon footprint created by planes departed from Barcelona during the presentation (10min)?
