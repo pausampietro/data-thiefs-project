@@ -40,6 +40,7 @@ Data you are using (sources)
 * https://datahub.io
 * Web Scraping https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft
 * Web Scraping https://www.barcelona-airport.com/eng/departures.php
+* https://github.com/jpatokal/openflights/blob/master/data/planes.dat
 
 Links (Trello, etc)
 * DB: host: 35.246.218.28 / user: reports , pass: reports
