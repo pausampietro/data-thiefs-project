@@ -23,8 +23,10 @@ In this project you will need to get all the information by yourself :scream:
 You need to write a README in your repository presenting your project with the next sections:
 
 Title of the project
+
 Team
 * Frequent fliers
+
 Topics you are covering
 
 *Carbon footprint of planes
