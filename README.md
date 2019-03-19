@@ -24,6 +24,8 @@ You need to write a README in your repository presenting your project with the n
 
 Title of the project
 
+Bcn flights CO2 impact
+
 Team
 * Frequent fliers
 
