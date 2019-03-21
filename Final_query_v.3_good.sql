@@ -32,7 +32,8 @@ SELECT
                             aircrafts_features
                         WHERE
                             `Flight Range` = MAX(airports_distance.`range`)
-                        GROUP BY `Flight Range`))) AS `Co2 (flight)`
+                        GROUP BY `Flight Range`))) AS `Co2 (flight)`,
+		MAX(updated_time) as `updated_time`
 FROM
     flights_dx
         LEFT JOIN
@@ -45,7 +46,7 @@ FROM
         LEFT JOIN
     airlines_icao ON airlines_icao.airline_ICAO = flights_dx.airline_icao
 GROUP BY reg_number
-HAVING NOT ISNULL(flight_range)
+HAVING NOT ISNULL(flight_range) And DAY(`updated_time`) = 20
 ORDER BY 1 DESC
 ;
 
